@@ -4,7 +4,7 @@
         <title>Mark's Sicko Site</title>
         <style>
             body {
-                background: rgb(125, 198, 205);
+                background: rgb(182, 190, 190);
                 color: rgb(45, 45, 45);
                 padding: 10px;
                 font-family: arial;
@@ -16,15 +16,15 @@
         
             /* navigation menu */
             nav {
-                background: rgb(239, 80, 41);
-                margin: 0 auto;
+                background: rgb(15, 30, 161);
+                margin: 0 auto; margin-bottom: 20px;
                 display: flex;
                 padding: 10px;
             }
             h1 {
                 display: flex;
                 align-items: center;
-                color: white;
+                color: rgb(247, 249, 255);
                 flex: 1;
                 margin: 0;
             }
@@ -37,12 +37,12 @@
             }
             a {
                 text-decoration: none;
-                color: #fff;
+                color: rgb(252, 252, 252);
             }
         
             /* main container area beneath menu */
             main {
-                background: rgb(245, 238, 219);
+                background: rgb(198, 222, 236);
                 display: flex;
             }
             .sidebar {
@@ -57,7 +57,7 @@
                 padding: 15px;
             }
             #interests {
-                border: 4px silver ridge;
+                border: 4px rgb(58, 113, 148) ridge;
                 padding: 8px;
             }
             h2, h3 {
@@ -69,14 +69,14 @@
     
     <body>
         <!-- All content goes here -->
-        <div> 
+        <div id="all-contents">
             <nav>
                 <h1>Mark's Sicko Site</h1>
-                <ul>
-                    <li>
+                <ul id="nav-ul">
+                    <li class="nav-li">
                         <a href="index.html"> Home </a>
                     </li>
-                    <li>
+                    <li class="nav-li">
                         <a href="portfolio.html"> Portfolio </a>
                     </li>
                 </ul>
@@ -84,12 +84,12 @@
 
             <main>
                 <!-- Sidebar section -->
-                <div>
-                    <img src="https://ichef.bbci.co.uk/news/1024/branded_news/6F10/production/_111923482_travis.jpg" width="400" height="300">
+                <div class="sidebar">
+                    <img class="sidebar-img" src="https://ichef.bbci.co.uk/news/1024/branded_news/6F10/production/_111923482_travis.jpg" width="400" height="200">
                 </div>
             
                 <!-- Content section -->
-                <div>
+                <div class="content">
                     <h2>
                         Mark Bahan
                     </h2>
@@ -97,7 +97,7 @@
                         Student at Mandeville High
                     </p>
                     <!-- Interests Section-->
-                    <div>
+                    <div id="interests">
                         <h3>Interests</h3>
                         <ul>
                             <li>Anime</li>
