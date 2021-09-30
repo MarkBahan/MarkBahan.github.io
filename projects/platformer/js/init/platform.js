@@ -48,6 +48,7 @@
         createPlatform(95, 125, .01, 5)
         createPlatform(800, 150, .25, .25)
         createPlatform(548, 0, .01, 3)
+        createPlatform(800, 545, .02, 4)
         
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
