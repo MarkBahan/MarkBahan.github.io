@@ -36,7 +36,6 @@
        (function(){
            'use strict'
            /* global jQuery */
- 
            //////////////////////////////////////////////////////////////////
            /////////////////// SETUP DO NOT DELETE //////////////////////////
            //////////////////////////////////////////////////////////////////
@@ -104,14 +103,13 @@
            the left side of the screen.
            */
            function handleBoxClick() {
-               positionX = randNum;
                points = points + 1
                changeBoxText(points);
                if (speedX === speedX) {
                    speedX += 10;
                } else if (speedX === -speed) {
                    speedX -= 1;
-               }; positionY = randNum2
+               }; 
                if (speedY === speedY) {
                    speedY += 10;
                } else if (speedY = -speedY) {
@@ -122,6 +120,24 @@
            };
        })();
    </script>
+  </style>
+</body>
+<body>
+    <p style="color:rgb(255, 217, 0);">Help! A wild Banana has been spotted floating in space. Quick! Click him.</p>
+    <script>
+     var message = {
+         startMessage: "START",
+     };
+     var inputMessage = prompt("Type START");
+    
+     if (inputMessage === message.startMessage) {
+    alert("Good, you can follow simple instructions!");
+} else {
+    alert("I guess you can't follow simple directions.");
+}
+
+    
+    </script>
 </body>
 </html>
  
